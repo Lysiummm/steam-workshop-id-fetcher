@@ -3,7 +3,7 @@ export default function App() {
   const [modIds, setModIds] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const STEAM_API_KEY = "6DC8511E1613570B46830BB0D171EC8A"; // Replace with your real API key
+  const STEAM_API_KEY = "6DC8511E1613570B46830BB0D171EC8A"; // Replace with your real API keys
 
   const fetchWorkshopIDs = async () => {
     setLoading(true);
